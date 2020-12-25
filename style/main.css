@@ -1,0 +1,116 @@
+.block{
+    width: 50%;
+    margin: 50px auto;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+
+    
+}
+.err{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    
+}
+.add{
+    width: 40%;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+.btnAdd{
+    width: 15%;
+    min-width: 15%;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(14, 198, 204);
+    margin-left: 10px;
+}
+
+.todoBlock{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin:  auto;
+    overflow: hidden;
+    
+   
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.158);
+    transition: linear 0.3s;
+    margin: 10px auto;
+    
+   
+    
+}
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
+
+
+.list h3{
+    width: 70%;
+    min-width: 200px;
+    margin-left: 20px;
+}
+
+.succses{
+    width: 10%;
+    min-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgb(25, 187, 74);
+    
+}
+i{
+    font-size: 25px;
+}
+
+.remove{
+    width: 19%;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 0, 0);
+}
+
+.line{
+    text-align: left;
+    text-decoration: line-through;
+    opacity: 0.5;
+    background: rgba(0, 0, 0, 0.164);
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.3s;
+}
+
+.fall{
+    transform: translateX(-110%);
+    transition: all 0.2s;
+}
